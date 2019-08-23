@@ -160,7 +160,7 @@ const unisWithUni = [];
 graduates.forEach(index => {
   // Expression
   index.university.includes("Uni")
-    ? unisWithUni.push(index.university)
+    ? unisWithUni.push(index)
     : console.log(false);
 });
 
